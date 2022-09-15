@@ -14,7 +14,7 @@ The code has been successfully tested in the following environment. (For older d
 
 ## Data
 The experiments are conducted on four event datasets collected from Integrated Conflict Early Warning System (ICEWS). These events are encoded into 20 main categories (e.g., protest, demand, appeal) using Conflict and Mediation Event Observations (CAMEO) event codes.
-Please find example datasets in this [Google Drive Link](https://drive.google.com/drive/folders/xxxxx?usp=sharing). A brief introduction of the data files is as follows:
+Please find example datasets in this [Google Drive Link](https://drive.google.com/drive/folders/xxxxx?usp=sharing)(TODO). A brief introduction of the data files is as follows:
 - `dyn_tf_2014-2015_900.pkl` A list of dynamic heterogeneous graphs constructed for samples from 2014 to 2015. The number of word nodes does not exceed 900.
 <!-- - `sta_tf_2014-2015_900.pkl` A list of static heterogeneous graphs constructed for samples from 2014 to 2015. The number of word nodes does not exceed 900. -->
 - `attr_tf_2014-2015_900.pkl` Date and target event (label) information for heterogeneous graphs.
