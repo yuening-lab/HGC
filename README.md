@@ -50,11 +50,11 @@ python train.py --dataset THA_w7h7 --datafiles sta_tf_2014-2015_900,sta_tf_2015-
 ``` -->
 *EvolveGCN*
 ```python
-python train.py --dataset THA_w7h7 --datafiles dyn_tf_2014-2015_900,dyn_tf_2015-2016_900,dyn_tf_2016-2017_900 --horizon 5 --gpu 1 -m evolvegcn --n-hidden 64 --n-layers 1 --note "" --train 0.6 --patience 15
+python train.py --dataset THA_w7h7 --datafiles dyn_tf_2014-2015_900,dyn_tf_2015-2016_900,dyn_tf_2016-2017_900 --horizon 5 --gpu 1 -m evolvegcn --n-hidden 64 --n-layers 1 --note "" --train 0.4 --patience 15
 ```
 *HGT*
 ```python
-python train.py --dataset THA_w7h7 --datafiles dyn_tf_2014-2015_900,dyn_tf_2015-2016_900,dyn_tf_2016-2017_900 --horizon 5 --gpu 1 -m temphgt --n-hidden 64 --n-layers 1 --note "" --train 0.6 --patience 15
+python train.py --dataset THA_w7h7 --datafiles dyn_tf_2014-2015_900,dyn_tf_2015-2016_900,dyn_tf_2016-2017_900 --horizon 5 --gpu 1 -m temphgt --n-hidden 64 --n-layers 1 --note "" --train 0.4 --patience 15
 ```
 
 **Evaluate the HGC model**
